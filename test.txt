@@ -1,0 +1,30 @@
+void main () {
+ 
+  int accounts = 44;
+  int banking = 34;
+  int poc = 49;
+  int maths = 48;
+  int ecnomics = 32;
+   
+  print('Accounts: $accounts');
+  print('');
+    print('Banking: $banking');
+  print('');
+  print('POC: $poc');
+  print('');
+  print('Maths: $maths');
+  print('');
+  print('Ecnomics: $ecnomics');
+
+  var obtainedMarks = accounts + banking + poc + maths + ecnomics;
+  var perc = obtainedMarks/250 * 100;
+  
+  print('');
+  print('Percentage: $perc%');
+  
+  if (perc > 80) {
+    print('you have done a good job!');
+  } else {print('Good Luck for Finals');
+}
+  
+}
